@@ -252,6 +252,7 @@ body{
 }
 .informationmain-right-content p{
     margin-bottom: 24px;
+    text-align: justify;
 }
 .informationmain-right-content ul li{
     position: relative;
@@ -301,7 +302,7 @@ body{
 /* ********** Start For Single Post Services Pages ********** */
 .partner-boxServices{
     background: #16256d;
-    padding: 15px 0;
+    padding: 15px;
     width: 100%;
     border-radius: 15px;
 }
@@ -742,6 +743,8 @@ body{
 .blog-post-item .blog-post-item-img a figure img:hover {
     transform: scale(1.05) rotate(2deg);
 }
+
+
 /*blog-post-con*/
 /*get-start-con*/
 .get-start-con{
@@ -988,11 +991,26 @@ body{
 }
 .blog-post-details-sec-content p{
     line-height: 28px;
+    text-align: justify;
 }
 .blog-post-details-heading-sec{
     padding-left: 56px;
-    padding-right: 8px;
+    padding-right: 56px;
+    padding-bottom: 30px;
+    background: #16256e;
+    padding: 45px 30px 32px 60px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    margin-bottom: 15px !important;
 }
+
+.blog-post-details-sec-img {
+   margin-top: 35px;
+   margin-left: 15px;
+}
+
+
+
 .blog-post-details-con{
     padding-bottom: 116px;
 }
@@ -1023,7 +1041,8 @@ body{
 .blog-post-item-title a h6:hover{
     color: var(--accent) !important;
 }
-/*about-page-blog-post-sectino*/
+/*about-page-blog-post-sectinon*/
+
 /*about-page-css*/
 /*service-page-css*/
 .service-Effective-tabs-con{
@@ -1238,6 +1257,10 @@ body{
     
     padding: 120px 0 185px 0;
     overflow: hidden;
+}
+
+.col-lg-2 {
+    max-width: 13% !important;
 }
 
   .Testimonials-item-auter-heading h6{

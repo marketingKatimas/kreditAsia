@@ -276,17 +276,32 @@ body{
 }
 .Effective-sec-item{
     background: #16256e;
-    padding:45px 30px 32px 30px;
+    padding:45px 30px 55px 30px;
     border-radius: 15px;
     border: 1px solid transparent;
     margin-bottom: 15px !important;
 }
+
+.Effective-sec-item-performance{
+    background: #16256e;
+    padding:45px 30px 25px 30px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    margin-bottom: 15px !important;
+}
+
+
 .Effective-sec-item img{
     transition: transform 0.5s  ease-in-out;
     margin-left: 30%;
 }
 
-.Effective-sec-itemServices{
+.Effective-sec-item-performance img{
+    transition: transform 0.5s  ease-in-out;
+    margin-left: 30%;
+}
+
+/* .Effective-sec-itemServices{
     background: #16256e;
     padding:45px 30px 32px 30px;
     border-radius: 15px;
@@ -297,7 +312,7 @@ body{
 .Effective-sec-itemServices img{
     transition: transform 0.5s  ease-in-out;
     margin-left: 40%;
-}
+} */
 
 /* ********** Start For Single Post Services Pages ********** */
 .partner-boxServices{
@@ -371,6 +386,17 @@ body{
 .Effective-sec-item:hover{
     border-color: var(--accent);
 }
+
+
+.Effective-sec-item-img-performance figure,
+#tsum-tabs label img{
+    margin-bottom: 11px;
+}
+.Effective-sec-item-performance:hover{
+    border-color: var(--accent);
+}
+
+
 .Effective-sec-heading h5{
     margin-bottom: 18px;
 }
@@ -382,8 +408,10 @@ body{
     /* padding: 14px 70px 11px 0; */
     letter-spacing: 0.5px;
     text-align: center;
-   
 }
+
+
+
 
 .Effective-sec-item-title a {
     color: #fff !important;
@@ -875,6 +903,7 @@ body{
 }
 .weight-footer-item-link ul li a{
     color: var(--text-color);
+    line-height: 30px;
 }
 .weight-footer-item-content p{
     padding-right: 24px;
@@ -1060,12 +1089,26 @@ body{
 .service-Effective-con .Effective-sec-item-title h4{
     padding: 12px 0px 7px 0;
 }
+
+.service-Effective-con .Effective-sec-item-title-contact h4{
+    padding: 12px 42px 7px 0;
+}
+
 .service-Effective-con .Effective-sec-item{
     padding: 39px 30px 32px 30px;
 }
 .service-Effective-con .Effective-sec-item-img figure{
     margin-bottom: 8px;
 }
+
+.Effective-sec-item-performance{
+    padding: 39px 30px 32px 30px;
+}
+.Effective-sec-item-img-performance figure{
+    margin-bottom: 8px;
+}
+
+
 .service-Effective-con-item{
     margin-bottom: 30px;
 }
@@ -1148,9 +1191,20 @@ body{
       text-align: center;
       position: relative;
   }
+
+  #tsum-tabs .Effective-sec-item-performance{
+    text-align: center;
+    position: relative;
+}
+
   #tsum-tabs .Effective-sec-item:hover{
       border-color: transparent;
   }
+
+  #tsum-tabs .Effective-sec-item-performance:hover{
+    border-color: transparent;
+}
+
   #tsum-tabs [id^="tab"]:checked + label img{
     filter:  brightness(0) invert(1);
   }
@@ -1218,12 +1272,18 @@ body{
       padding: 52px 40px;
 
   }
+
+
   .contact-form-con{
       background: transparent;
   }
   .contact-box-card .Effective-sec-item .Effective-sec-item-img figure{
       margin-bottom: 35px;
   }
+
+  .contact-box-card .Effective-sec-item .Effective-sec-item-img-performance figure{
+    margin-bottom: 35px;
+}
   .contact-box-card .Effective-sec-item .Effective-sec-item-title h4{
       padding-bottom: 14px;
   }

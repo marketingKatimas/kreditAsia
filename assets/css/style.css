@@ -1115,6 +1115,9 @@ body{
 
 .team-member-detail p {
     color: #fff;
+    text-align: justify;
+    letter-spacing: -0.5px;
+    
 }
 
 .contact-btn-KeyServicesSingle-back {

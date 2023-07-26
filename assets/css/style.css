@@ -243,10 +243,22 @@ body{
 .informationmainleft-sec-img img{
     margin-left: -115px;
 }
+
+.informationmainleft-sec-img-about img{
+    margin-left: -115px;
+}
+
+
 .informationmain-right-heading h2{
     line-height: 62px;
     margin-bottom: 18px;
 }
+
+.informationmain-right-heading-about h2{
+    line-height: 62px;
+    margin-bottom: 18px;
+} 
+
 .informationmain-right-heading h5{
     margin-bottom: 14px;
 }

@@ -1338,6 +1338,9 @@ body{
     max-width: 13% !important;
 }
 
+.col-lg-2-footer{
+    max-width: 16% !important;
+}
   .Testimonials-item-auter-heading h6{
       color: var(--primary--color);
       font-size: 18px;

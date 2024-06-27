@@ -150,7 +150,8 @@ a.item-link{margin-top: 20px; display: inline-block}
 	top:10px;
 	font-size: 20px;
 	padding-top: 2px;
-	content: "\f104";
+	/* content: "\f104"; */
+	content: "";
 	font-family: FontAwesome;
 	transition: all .3s ease;
 	transform: translate3d(0,-50%,0);
@@ -158,7 +159,8 @@ a.item-link{margin-top: 20px; display: inline-block}
 .post-navigation .post-next:after {
 	right: 0;
 	left: inherit;
-	content: "\f105";
+	/* content: "\f105"; */
+	content: "";
 	font-family: FontAwesome;
 }
 .post-navigation .post-prev-title {

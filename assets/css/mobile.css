@@ -81,6 +81,11 @@
 
 
 }
+@media only screen and (min-width: 992px) {
+    .service-icons-row {
+        justify-content: center;
+    }
+}
 @media only screen and (max-width: 991px){
     .banner-content p {
         font-size: 1.12rem; 
@@ -98,7 +103,8 @@
     }
 
     .weight-footer-item-content p {
-        font-size: 18px !important;
+        /* font-size: 18px !important; */
+        font-size: 14px !important;
     }
 
     .blog-post-details-sec-content p {
@@ -579,8 +585,8 @@
     padding: 60px 0;
 }
 
-.col-lg-2-footer{
-    max-width: 30% !important;
+.col-lg-3-footer{
+    max-width: 100% !important;
 }
  
 }
@@ -602,9 +608,13 @@
     .blockquote {
         margin-left: 24px !important;
     }
-    .post-item-description{
-        padding-right: 0 !important;
+    figure { 
+        display: flex;
+        justify-content: center;
     }
+    /* .post-item-description{
+        padding-right: 0 !important;
+    } */
     .header-and-banner-con::after {
         background-position-y: center;
     }
@@ -756,12 +766,13 @@
     padding-right: 0;
 }
 
-.weight-footer-item-link ul li{
+/* .weight-footer-item-link ul li{
     white-space: nowrap;
-}
+} */
 
 .weight-footer-item-content p {
     white-space: none !important;
+    margin-left: 7px;
 }
 
 .Pricing-box-main-con,
@@ -801,10 +812,10 @@
 .tab-sec-img img{
     width: 60%;
 }
-.weight-footer-item-con .row > div:nth-child(2) .weight-footer-item,
+/* .weight-footer-item-con .row > div:nth-child(2) .weight-footer-item,
 .weight-footer-item-con .row > div:nth-child(3) .weight-footer-item{
     text-align: left;
-}
+} */
 .service-main-left-con{
     padding-left: 15px;
     padding-right: 15px;
@@ -841,7 +852,7 @@
         width: 250px;
     }
     .team-member-detail p, .team-member-detail h5 {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     .contact-btn{
         padding: 12px 24px;
@@ -896,7 +907,7 @@
     .weight-footer-item2-content{
         line-height: 22px !important;
     }
-    .Newsletter-title,
+    /* .Newsletter-title, */
     .service-skill-sttaf-con{
         display: none;
     }
@@ -909,6 +920,8 @@
     }
     .blog-post-details-sec-content p {
         line-height: 24px;
+        font-size: 14px;
+        text-align: center;
     }
     .blog-post-details-con{
         text-align: center;
@@ -930,17 +943,57 @@
         height: 300px;
     }
     .weight-footer-item-con .row > div:nth-child(2) .weight-footer-item,
-.weight-footer-item-con .row > div:nth-child(3) .weight-footer-item{
-    margin-left: 20px;
-    margin-bottom: 23px !important;
-}
-.service-box-content{
-    width: 95%;
-}
-#tsum-tabs .Effective-sec-item-title h4{
-    padding: 0 32px;
-}  
-.blog-posts {
-    padding: 40px 0;
-}
+    .weight-footer-item-con .row > div:nth-child(3) .weight-footer-item{
+        /* margin-left: 20px; */
+        margin-bottom: 23px !important;
+    }
+    .weight-footer-item {
+        text-align: left;
+    }
+    .service-box-content{
+        width: 95%;
+    }
+    #tsum-tabs .Effective-sec-item-title h4{
+        padding: 0 32px;
+    }  
+    .blog-posts {
+        padding: 40px 0;
+    }
+    /* .img-cust1 {
+        display: inline !important;
+    } */
+    .blog-post-details-sec-img { 
+        display: none !important;
+    }
+    .about-page-banner-title-services h1 {
+        margin-bottom: 10px !important;
+    }
+    .team-member-detail p {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+    .Testimonials-section-conServices {
+        padding: 45px 0 21px 0;
+        overflow: hidden;
+    }
+    .weight-footer-item-img figure {
+        justify-content: left !important;
+    }
+    .informationmain-right-content p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .informationmain-conAboutUs {
+        padding-bottom: 55px;
+    }
+    .banner-content p {
+        text-align: center;
+    }
+    /* .post-item-description p {
+        text-align: left !important;
+    } */
+    /* figure {
+        justify-content: left !important;
+    } */
 }
